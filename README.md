@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a movie app built with React, Redux Toolkit, and Material-UI. It allows users to search for movies by query, filter movies by categories and genres, authenticate with their account,add favorite movies to a list, you can also use voice functionality to search for the movie or toggle between dark and light mode.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1. Clone the repository:
+git clone https://github.com/malikbendevv/Movie-app.git
 
-### `npm start`
+2. Navigate to the project directory
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   cd Movie-app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Install the dependencies:
 
-### `npm test`
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Set up the environment variables:
+- Rename the `.env.example` file to `.env`.
+- Add your tmdb API key in the `.env` file.
 
-### `npm run build`
+5. Start the development server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. Open your web browser and visit `http://localhost:3000` to access the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+- Register an account or log in with your existing credentials.
+- Use the search bar to search for movies by title, actor, or any keyword.
+- Filter movies by categories or genres to narrow down your search.
+- Click on a movie to view more details, including a summary, release date,Trailer , and rating.
+- Add your favorite movies to the favorites list by clicking the "Add to Favorites" button.
+- Access your favorites list from the navigation menu.
+- You can see the details of the actors 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- User authentication and registration system.
+- Search movies by query, including title and actor name.
+- Filter movies by categories and genres.
+- Display movie details, such as summary,trailer, release date, and rating.
+- Add and remove movies from the favorites list.
+- Responsive and user-friendly UI powered by Material-UI.
+- Toggle between dark and light mode
+- search for movies using your voice
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Configuration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To configure the app, you can modify the following environment variables in the `.env` file:
 
-## Learn More
+- `REACT_APP_TMDB_KEY`: Your API key for accessing movie data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions are welcome! If you find any bugs or want to suggest improvements, please submit an issue or open a pull request on the GitHub repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
